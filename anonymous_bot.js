@@ -6,7 +6,7 @@ var controller = Botkit.slackbot({
 });
 
 var bot = controller.spawn({
-  token: "xoxb-6171738617028-6192669787824-UAzEc20dejaB8njGC6gHPX6O"
+  token: "ここにトークン入れてね！"
 }).startRTM();
 
 controller.on("direct_message", (bot, message) => {
